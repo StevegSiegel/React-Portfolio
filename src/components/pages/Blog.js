@@ -1,9 +1,13 @@
 import React from 'react';
+import pg1 from '../img/0001.jpg';
+import pg2 from '../img/0002.jpg';
 
 export default function Blog() {
   return (
     <div>
-      <h1>Resume</h1>
+      <img src={pg1}></img>
+      <img src={pg2}></img>
+      {/* <h1>Resume</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
@@ -18,7 +22,7 @@ export default function Blog() {
         in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      </p> */}
     </div>
   );
 }

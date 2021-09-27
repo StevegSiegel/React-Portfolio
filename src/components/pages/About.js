@@ -2,16 +2,35 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>Projects</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <article class="projects">
+            <div class="horiseon">
+                <a href="https://stevegsiegel.github.io/what-should-i-watch/" target="blank">
+                   
+                <img src="./assets/images/project1.png" alt="what should i watch"/></a>
+                <p>What Should I Watch?                             
+                    <a href="https://github.com/StevegSiegel/what-should-i-watch" target="blank">Link to Repo</a>
+                </p>
+
+            </div>
+            <div class="portfolio">
+                
+                <a href="https://stevegsiegel.github.io/Password-Generator/" target="blank">
+                    
+                <img src="./assets/images/passwodGenerator.png" alt="password generator"/></a>
+                <p>Password Generator
+                    <a href="https://github.com/StevegSiegel/Password-Generator" target="blank">Link to Repo</a>
+                </p>
+            </div>
+            <div class="project-3">
+                <a href="https://stevegsiegel.github.io/Scheduler/" target="blank">
+                <img src="./assets/images/Scheduler.png" alt="work day scheduler"/>
+                </a> 
+                
+                
+                <p>Project #3
+                    <a href="https://github.com/StevegSiegel/Scheduler" target="blank">Link to Repo</a>
+                </p>
+            </div>
+        </article>
   );
 }
